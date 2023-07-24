@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-24T14:26:44 CDT" name="Default suite" finished-at="2023-07-24T14:27:14 CDT" duration-ms="30084">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@79924b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-07-24T14:26:44 CDT" name="Default test" finished-at="2023-07-24T14:27:14 CDT" duration-ms="30084">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@79924b]" started-at="2023-07-24T14:26:44 CDT" name="setUpClass" finished-at="2023-07-24T14:26:45 CDT" duration-ms="655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ecc4be7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@79924b]" started-at="2023-07-24T14:26:45 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-24T14:26:50 CDT" duration-ms="4926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is trying to create an assignment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@79924b]" started-at="2023-07-24T14:26:50 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-24T14:26:50 CDT" duration-ms="369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is trying to extract all data of assignments"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@79924b]" started-at="2023-07-24T14:26:50 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-24T14:26:51 CDT" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is trying to extract data by assignment id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@79924b]" started-at="2023-07-24T14:26:51 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-24T14:27:13 CDT" duration-ms="21943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is trying to extract data by batch id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@79924b]" started-at="2023-07-24T14:27:13 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-24T14:27:13 CDT" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is trying to update an assignment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@79924b]" started-at="2023-07-24T14:27:13 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-24T14:27:13 CDT" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is trying to delete an assignment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@79924b]" started-at="2023-07-24T14:27:13 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-24T14:27:14 CDT" duration-ms="252" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is trying to create an assignment with missing data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object instance has properties which are not allowed by the schema: ["message","success"]
+    level: "error"
+    schema: {"loadingURI":"file:/C:/NumpyNinja_Projects/RESTAssured_Hackathon2023/target/test-classes/schemaValidator.json#","pointer":"/definitions/Welcome3"}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "additionalProperties"
+    unwanted: ["message","success"]
+error: object has missing required properties (["assignmentDescription","assignmentId","assignmentName","batchId","comments","createdBy","dueDate","graderId","pathAttachment1","pathAttachment2","pathAttachment3","pathAttachment4","pathAttachment5"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/NumpyNinja_Projects/RESTAssured_Hackathon2023/target/test-classes/schemaValidator.json#","pointer":"/definitions/Welcome3"}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["assignmentDescription","assignmentId","assignmentName","batchId","comments","createdBy","dueDate","graderId","pathAttachment1","pathAttachment2","pathAttachment3","pathAttachment4","pathAttachment5"]
+    missing: ["assignmentDescription","assignmentId","assignmentName","batchId","comments","createdBy","dueDate","graderId","pathAttachment1","pathAttachment2","pathAttachment3","pathAttachment4","pathAttachment5"]
+
+  Actual: {"message":"Created By is mandatory","success":false}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object instance has properties which are not allowed by the schema: ["message","success"]
+    level: "error"
+    schema: {"loadingURI":"file:/C:/NumpyNinja_Projects/RESTAssured_Hackathon2023/target/test-classes/schemaValidator.json#","pointer":"/definitions/Welcome3"}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "additionalProperties"
+    unwanted: ["message","success"]
+error: object has missing required properties (["assignmentDescription","assignmentId","assignmentName","batchId","comments","createdBy","dueDate","graderId","pathAttachment1","pathAttachment2","pathAttachment3","pathAttachment4","pathAttachment5"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/NumpyNinja_Projects/RESTAssured_Hackathon2023/target/test-classes/schemaValidator.json#","pointer":"/definitions/Welcome3"}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["assignmentDescription","assignmentId","assignmentName","batchId","comments","createdBy","dueDate","graderId","pathAttachment1","pathAttachment2","pathAttachment3","pathAttachment4","pathAttachment5"]
+    missing: ["assignmentDescription","assignmentId","assignmentName","batchId","comments","createdBy","dueDate","graderId","pathAttachment1","pathAttachment2","pathAttachment3","pathAttachment4","pathAttachment5"]
+
+  Actual: {"message":"Created By is mandatory","success":false}
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:98)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:293)
+at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+at api.endpoints.AssignmentEndPoints.createUser(AssignmentEndPoints.java:21)
+at api.tests.AssignmentTests.TestPostAssignment(AssignmentTests.java:88)
+at stepDefinitions.AssignmentNegativeScenarios_SD.user_sends_request_body_from_excel_with_missing_data(AssignmentNegativeScenarios_SD.java:22)
+at ✽.User sends request Body from excel with missing data(file:///C:/NumpyNinja_Projects/RESTAssured_Hackathon2023/src/test/resources/features/5AssignmentNegativeScenarios.feature:27)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@79924b]" started-at="2023-07-24T14:27:14 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-24T14:27:14 CDT" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is trying to extract data by non-existing assignment id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@79924b]" started-at="2023-07-24T14:27:14 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-24T14:27:14 CDT" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is trying to extract data by non-existing batch id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@79924b]" started-at="2023-07-24T14:27:14 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-24T14:27:14 CDT" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is trying to update an assignment with missing data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@79924b]" started-at="2023-07-24T14:27:14 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-24T14:27:14 CDT" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is trying to delete an assignment with non-existent id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@79924b]" started-at="2023-07-24T14:27:14 CDT" name="tearDownClass" finished-at="2023-07-24T14:27:14 CDT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

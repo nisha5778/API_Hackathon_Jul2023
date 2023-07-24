@@ -1,0 +1,41 @@
+['INFO ]2023-07-24 14:26:46,224(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-Assignment POST request with endpoint
+['INFO ]2023-07-24 14:26:46,918(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Creating Assignment *************
+['INFO ]2023-07-24 14:26:50,394(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Assignment is Created ****************
+['INFO ]2023-07-24 14:26:50,396(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-io.restassured.internal.ValidatableResponseImpl@4aea57dc
+['INFO ]2023-07-24 14:26:50,492(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-Assignment GET request with endpoint
+['INFO ]2023-07-24 14:26:50,495(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Retrieving All Assignments *************
+['INFO ]2023-07-24 14:26:50,764(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-io.restassured.internal.RestAssuredResponseImpl@49741274
+['INFO ]2023-07-24 14:26:50,845(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Assignment details are Displayed *************
+['INFO ]2023-07-24 14:26:50,863(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-Assignment GET request with endpoint
+['INFO ]2023-07-24 14:26:50,865(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Retrieving Assignment *************
+['INFO ]2023-07-24 14:26:51,110(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-io.restassured.internal.RestAssuredResponseImpl@fe38c0e
+['INFO ]2023-07-24 14:26:51,115(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Assignment details are Displayed *************
+['INFO ]2023-07-24 14:26:51,126(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-Assignment GET request with endpoint
+['INFO ]2023-07-24 14:26:51,128(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Retrieving Assignment *************
+['INFO ]2023-07-24 14:27:13,053(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-io.restassured.internal.RestAssuredResponseImpl@11d422fd
+['INFO ]2023-07-24 14:27:13,061(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Assignment details are Displayed *************
+['INFO ]2023-07-24 14:27:13,069(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-Assignment PUT request with endpoint
+['INFO ]2023-07-24 14:27:13,103(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Updating assignment *************
+['INFO ]2023-07-24 14:27:13,327(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Assignment details Updated ****************
+['INFO ]2023-07-24 14:27:13,327(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Retrieving assignment Details after Update *************
+['INFO ]2023-07-24 14:27:13,543(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-io.restassured.internal.RestAssuredResponseImpl@64186f60
+['INFO ]2023-07-24 14:27:13,544(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Assignment details Updated *************
+['INFO ]2023-07-24 14:27:13,550(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-Assignment DELETE request with endpoint
+['INFO ]2023-07-24 14:27:13,550(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Deleting Assignment *************
+['INFO ]2023-07-24 14:27:13,765(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-io.restassured.internal.RestAssuredResponseImpl@1b06dc57
+['INFO ]2023-07-24 14:27:13,766(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Deletion Successful *************
+['INFO ]2023-07-24 14:27:13,774(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-Assignment POST request with endpoint
+['INFO ]2023-07-24 14:27:13,775(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Creating Assignment *************
+['INFO ]2023-07-24 14:27:14,026(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-Assignment GET request with endpoint
+['INFO ]2023-07-24 14:27:14,027(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Retrieving Assignment *************
+['INFO ]2023-07-24 14:27:14,238(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-io.restassured.internal.RestAssuredResponseImpl@4511146f
+['INFO ]2023-07-24 14:27:14,241(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Assignment details are Displayed *************
+['INFO ]2023-07-24 14:27:14,247(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-Assignment GET request with endpoint
+['INFO ]2023-07-24 14:27:14,247(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Retrieving Assignment *************
+['INFO ]2023-07-24 14:27:14,458(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-io.restassured.internal.RestAssuredResponseImpl@32b1e906
+['INFO ]2023-07-24 14:27:14,459(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Assignment details are Displayed *************
+['INFO ]2023-07-24 14:27:14,464(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-Assignment PUT request with endpoint
+['INFO ]2023-07-24 14:27:14,464(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Updating assignment *************
+['INFO ]2023-07-24 14:27:14,687(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-Assignment DELETE request with endpoint
+['INFO ]2023-07-24 14:27:14,687(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-*********************** Deleting Assignment *************
+['INFO ]2023-07-24 14:27:14,897(YYYY-MM-ddHH:MM:ss.SSS][main]api.utilities.Loggerload1)-io.restassured.internal.RestAssuredResponseImpl@12dc702b

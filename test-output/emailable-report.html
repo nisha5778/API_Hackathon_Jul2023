@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">30,084</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">runner.TestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1690226833769</td><td rowspan="1">252</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">runner.TestRunner</td><td><a href="#m1">runScenario</a></td><td rowspan="10">1690226811119</td><td rowspan="10">21943</td></tr><tr class="passedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m3">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m4">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m5">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m6">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m7">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m8">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m9">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m10">runScenario</a></td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User is trying to create an assignment with missing data&quot;</td><td>&quot;Title of your feature&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: The content to match the given JSON schema.
+error: object instance has properties which are not allowed by the schema: [&quot;message&quot;,&quot;success&quot;]
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/C:/NumpyNinja_Projects/RESTAssured_Hackathon2023/target/test-classes/schemaValidator.json#&quot;,&quot;pointer&quot;:&quot;/definitions/Welcome3&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;additionalProperties&quot;
+    unwanted: [&quot;message&quot;,&quot;success&quot;]
+error: object has missing required properties ([&quot;assignmentDescription&quot;,&quot;assignmentId&quot;,&quot;assignmentName&quot;,&quot;batchId&quot;,&quot;comments&quot;,&quot;createdBy&quot;,&quot;dueDate&quot;,&quot;graderId&quot;,&quot;pathAttachment1&quot;,&quot;pathAttachment2&quot;,&quot;pathAttachment3&quot;,&quot;pathAttachment4&quot;,&quot;pathAttachment5&quot;])
+    level: &quot;error&quot;
+    schema: {&quot;loadingURI&quot;:&quot;file:/C:/NumpyNinja_Projects/RESTAssured_Hackathon2023/target/test-classes/schemaValidator.json#&quot;,&quot;pointer&quot;:&quot;/definitions/Welcome3&quot;}
+    instance: {&quot;pointer&quot;:&quot;&quot;}
+    domain: &quot;validation&quot;
+    keyword: &quot;required&quot;
+    required: [&quot;assignmentDescription&quot;,&quot;assignmentId&quot;,&quot;assignmentName&quot;,&quot;batchId&quot;,&quot;comments&quot;,&quot;createdBy&quot;,&quot;dueDate&quot;,&quot;graderId&quot;,&quot;pathAttachment1&quot;,&quot;pathAttachment2&quot;,&quot;pathAttachment3&quot;,&quot;pathAttachment4&quot;,&quot;pathAttachment5&quot;]
+    missing: [&quot;assignmentDescription&quot;,&quot;assignmentId&quot;,&quot;assignmentName&quot;,&quot;batchId&quot;,&quot;comments&quot;,&quot;createdBy&quot;,&quot;dueDate&quot;,&quot;graderId&quot;,&quot;pathAttachment1&quot;,&quot;pathAttachment2&quot;,&quot;pathAttachment3&quot;,&quot;pathAttachment4&quot;,&quot;pathAttachment5&quot;]
+
+  Actual: {&quot;message&quot;:&quot;Created By is mandatory&quot;,&quot;success&quot;:false}
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:98)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:293)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at api.endpoints.AssignmentEndPoints.createUser(AssignmentEndPoints.java:21)
+	at api.tests.AssignmentTests.TestPostAssignment(AssignmentTests.java:88)
+	at stepDefinitions.AssignmentNegativeScenarios_SD.user_sends_request_body_from_excel_with_missing_data(AssignmentNegativeScenarios_SD.java:22)
+	at ✽.User sends request Body from excel with missing data(file:///C:/NumpyNinja_Projects/RESTAssured_Hackathon2023/src/test/resources/features/5AssignmentNegativeScenarios.feature:27)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User is trying to extract data by batch id&quot;</td><td>&quot;Title of your feature&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User is trying to extract data by non-existing batch id&quot;</td><td>&quot;Title of your feature&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User is trying to update an assignment&quot;</td><td>&quot;Title of your feature&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User is trying to delete an assignment&quot;</td><td>&quot;Title of your feature&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User is trying to extract data by assignment id&quot;</td><td>&quot;Title of your feature&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User is trying to create an assignment&quot;</td><td>&quot;Title of your feature&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User is trying to extract all data of assignments&quot;</td><td>&quot;Title of your feature&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User is trying to update an assignment with missing data&quot;</td><td>&quot;Title of your feature&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User is trying to extract data by non-existing assignment id&quot;</td><td>&quot;Title of your feature&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">runner.TestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User is trying to delete an assignment with non-existent id&quot;</td><td>&quot;Title of your feature&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
